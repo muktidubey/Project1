@@ -1,8 +1,4 @@
-FROM openjdk:8
-
-FROM maven:3.8-jdk-11
-
-FROM mysql:5.6
+debian:bookworm-slim
       
 EXPOSE 8080
  
